@@ -172,3 +172,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+/data/RISCM/
+/big_vision_repo/
