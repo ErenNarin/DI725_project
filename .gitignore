@@ -175,3 +175,4 @@ cython_debug/
 /data/RISCM/.ipynb_checkpoints/
 /data/RISCM/resized/
 /big_vision_repo/
+/fine-tuning-paligemma.ipynb
