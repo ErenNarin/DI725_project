@@ -8,7 +8,7 @@
 > **_NOTE:_** install
 > 
 > ```console
-> pip install tensorflow overrides ml_collections sentencepiece einops~=0.7 jax ipython pillow scikit-image matplotlib flax kagglehub polars
+> pip install tensorflow overrides ml_collections sentencepiece einops~=0.7 jax ipython pillow scikit-image matplotlib flax kagglehub polars keras-nightly
 > ```
 > 
 > ```console
