@@ -172,12 +172,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+/.idea
 /data/RISCM/.ipynb_checkpoints/
 /data/RISCM/resized/
+/wandb
 
-/.idea
 /image-caption-evaluation.ipynb
 /custom-eval-score.ipynb
-/fine-tuning-paligemma-with-riscm.ipynb
 /main.py
-/wandb/
