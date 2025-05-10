@@ -174,5 +174,9 @@ cython_debug/
 .pypirc
 /data/RISCM/.ipynb_checkpoints/
 /data/RISCM/resized/
-/big_vision_repo/
+
 /image-caption-evaluation.ipynb
+/custom-eval-score.ipynb
+/fine-tuning-paligemma-with-riscm.ipynb
+/main.py
+/wandb/
