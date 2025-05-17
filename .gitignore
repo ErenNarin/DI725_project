@@ -180,3 +180,5 @@ cython_debug/
 /image-caption-evaluation.ipynb
 /custom-eval-score.ipynb
 /main.py
+*.insyncdl
+/fine-tuning-paligemma-with-riscm-custom-tokenizer-with-gensim.ipynb

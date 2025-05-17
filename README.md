@@ -1,16 +1,14 @@
 # DI725_project
 
-> **_NOTE:_** install
-> 
-> "data/RISCM"
+This is the main code base of the project of DI725 course. To execute the proposed method, [fine-tuning-paligemma-with-riscm-custom-tokenizer.ipynb](fine-tuning-paligemma-with-riscm-custom-tokenizer.ipynb) notebook should be exevuted on Colab environment. Since the training process requires large RAM usage, executing this file on the local environment may cause execution errors.
 
-
-> **_NOTE:_** install
-> 
-> ```console
-> pip install tensorflow overrides ml_collections sentencepiece einops~=0.7 jax ipython pillow scikit-image matplotlib flax kagglehub polars keras-nightly
-> ```
-> 
-> ```console
-> pip install -U "jax[cuda12]"
-> ```
+To execute the notebook properly, following keys should be defined and should be accessible from the notebook in Colab session.
+- DATA_PATH: The path of RISCM folder
+  - DATA_PATH
+    - resized
+      - *.jpg
+    - captions.csv
+- HF_TOKEN: Huggingface API token
+- KAGGLE_USERNAME: Username of the Kaggle account (should habe been consented to the license for PaliGemma and Paligemma 2 models)
+- KAGGLE_KEY: Kaggle API Key of the account
+- WANDB_KEY: Weights & Biases account API key (will be used during training)
